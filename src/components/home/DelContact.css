@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.delContactContainer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.delContactContainer p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+}
+
+.delContactBtns{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+.delContactBtns button{
+    width: 80px;
+    height: 33px;
+    margin: 0 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.delContactBtns button:hover{
+    background-color: #aaa;
+}

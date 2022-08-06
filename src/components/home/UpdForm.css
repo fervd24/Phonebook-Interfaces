@@ -1,0 +1,64 @@
+.updFormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.updFormContainer span{
+    color: #ff0000;
+}
+
+.updFormContainer label{
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+.updFormContainer input{
+    margin-bottom: 0;
+    height: 25px;
+    width: 100%;
+}
+
+.updBtnsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.updIptContainer{
+    height: 100px;
+}
+
+.updFormBtns{
+    height: 35px;
+    width: 80px;
+    padding: 3px 4px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    margin: 0 0.7rem;
+    
+}
+
+.updBtn{
+    background-color: #007000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.updBtn:hover{
+    background-color: #008000;
+    
+}
+
+.cancelBtn{
+    background-color: #bb0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cancelBtn:hover{
+    background-color: #ff0000;
+}
