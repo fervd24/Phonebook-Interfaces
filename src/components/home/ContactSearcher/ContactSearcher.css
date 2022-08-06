@@ -1,0 +1,17 @@
+.searcherContainer{
+    height: 90px;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.searcherContainer h2{
+    font-size: 19px;
+    height: 5px;
+    font-weight: 100;
+}
+
+.searcherContainer input{
+    border-radius: 4px;
+    height: 26px;
+    width: 240px;
+}
