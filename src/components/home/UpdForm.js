@@ -38,7 +38,6 @@ export const UpdForm = ({closeModal, setPhonebookList, currData}) => {
                     ref={inputRef}
                     name='name'
                     type='text'
-                    //value={form.name}
                     defaultValue={name}
                     onBlur={handleBlur}
                     onChange={handleChange} 
@@ -53,7 +52,6 @@ export const UpdForm = ({closeModal, setPhonebookList, currData}) => {
                     onBlur={handleBlur}
                     onChange={handleChange}
                     defaultValue={phone}
-                    //value={form.phone}
                 />
                 {errors.phone && <span>{errors.phone}</span>}
             </div>
