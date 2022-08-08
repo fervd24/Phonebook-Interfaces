@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.registerContainer{
+    height: auto;
+    padding: 7rem 0;
+}
+
+.registerSubcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background-color: #0000FF;
+    border-radius: 4px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registerSubcontainer h2{
+    margin: 0 auto; 
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 29px; 
+    color: #fff;
+}
+
+
+.registerInputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.registerInputContainer label{
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.registerInputContainer input{
+    margin: 1.5rem auto;
+    margin-bottom: 0;
+    width: 100%;
+    height: 29px;
+    border-radius: 4px;
+}
+
+.registerInputContainer span{
+    color: red;
+    font-weight: 600;
+}
+
+.signupContainer{
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.signupContainer{
+    color: #fff;
+}
+
+.signupBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 4rem auto 5rem auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.signupBtn:hover{
+    background-color: #bbb;
+}
+
+.goToSignin{
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+}
+
+.goToSignin a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.goToSignin a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
