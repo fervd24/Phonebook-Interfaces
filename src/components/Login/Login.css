@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.mainLoginContainer{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.loginSubcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000FF;
+    border-radius: 4px;
+    padding: 1rem 0;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginSubcontainer h2{
+    margin: 2rem 0;
+    font-size: 30px;
+    margin: 3rem auto;
+    color: #fff;
+}
+
+.loginSubcontainer label{
+    margin: 1rem 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.inputContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.iptElement{
+    width: 100%;
+    height: 28px;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+.inputSubContainer{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.inputContainer label{
+    margin-top: 2rem;
+}
+
+.inputContainer span{
+    color: #dd0000;
+    font-weight: 600;
+}
+
+.signinContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.signinContainer p{
+    color: #fff;
+}
+
+.signinBtn{
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: 100px;
+    height: 35px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.signinBtn:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.loading{
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.createAccountBtn{
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+    width: 140px;
+}
+
+.createAccountBtn:hover{
+    text-decoration: underline;
+}
