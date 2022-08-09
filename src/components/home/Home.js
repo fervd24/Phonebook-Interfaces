@@ -71,7 +71,7 @@ export default function Home() {
                 />
                 {errors.phone && <span>{errors.phone}</span>}
               </div>
-              <input type='submit' value='Add new number' className='addContactBtn'/>
+              <input disabled={!form.name} type='submit' value='Add new number' className='addContactBtn'/>
    
               { loading && <p>Cargando...</p>}
               {response && <Message text="Contact created." bgColor="succesMsg"/>}

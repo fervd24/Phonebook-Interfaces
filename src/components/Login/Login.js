@@ -36,7 +36,6 @@ export default function Login() {
                         <div className='inputSubContainer'>
                             <label>Email:</label>
                             <input 
-                                autoFocus
                                 name="email" 
                                 type="email" 
                                 onBlur={handleBlur} 
@@ -61,7 +60,7 @@ export default function Login() {
                         <div className='signinContainer'>
                             { loading && <p>Cargando...</p>}
                             {response === false && <Message text={responseErrorMsg} bgColor="errorMsg"/>}
-                            <input className="signinBtn" type="submit" value="Sign in"/>  
+                            <input disabled={!form.email} className="signinBtn" type="submit" value="Sign in"/>  
                         </div>
                     </form>
                     { response && <Navigate to="/home" replace={true}/>}  

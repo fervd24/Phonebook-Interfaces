@@ -84,7 +84,7 @@ export default function Register() {
               { loading && <p>Cargando...</p>}
               {response && <Message text="Contact created." bgColor="succesMsg"/>}
               {response === false && <Message text={responseErrorMsg} bgColor="errorMsg"/>}
-              <input className='signupBtn' type='submit' value="Sign Up"/>
+              <input disabled={!form.name} className='signupBtn' type='submit' value="Sign Up"/>
             </div>
             <div className='goToSignin'>
               <Link to="/" >Sign in to your account</Link>
